@@ -1,0 +1,13 @@
+BUDGET CONTROL — PROTÓTIPO FRONT-END
+
+Abra index.html num navegador moderno.
+Contas de teste: admin / admin123 e demo / demo123.
+
+Atualizações:
+- Dashboard: orçamento, despesas totais, saldo e categorias calculados com TODAS as despesas do projeto, mesmo para participantes que não podem ver detalhes de terceiros.
+- Separador Despesas: utilizador comum vê somente as suas despesas do projeto selecionado.
+- Separador Administração: filtro por utilizador e por projeto, listagem de todas as despesas, total filtrado, edição e eliminação administrativas.
+- O administrador pode selecionar "Ver todas as despesas" no cartão de um utilizador.
+- Participação nos projetos e permissões de criar/editar/eliminar configuráveis pelo administrador.
+
+AVISO DE SEGURANÇA: apenas demonstração local. O armazenamento local e a validação de permissões no browser NÃO oferecem autenticação, isolamento ou segurança reais. Não introduza dados pessoais ou financeiros verdadeiros. Para produção, implemente API autenticada e validações de autorização no servidor em TODAS as rotas, incluindo as de totais, gráficos, projetos e despesas. Nunca guarde palavras-passe em texto simples.
